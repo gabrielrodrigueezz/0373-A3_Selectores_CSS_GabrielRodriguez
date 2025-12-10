@@ -1,9 +1,9 @@
-/* Regla 1: Universal selector */
+/*Esto significa que todos los elementos de la página van a usar la misma fuente de letra*/
 * {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Regla 2: body */
+/*El body es todo el cuerpo de la pagina.Le quito el margen de arriba y abajo y le doy espacio a la derecha e izquierda*/
 body {
     margin: 0;
     padding: 0 20%;
