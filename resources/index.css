@@ -9,4 +9,17 @@ body {
     padding: 0 20%;
 }
 
+/*El título principal (h1) estará subrayado, de colo azul y centrados así se ve grande y ordenado.*/
+h1 {
+    text-decoration: underline;
+    color: azul;
+    text-align: center;
+}
+
+/*A los elementos clase selector les puse color rojo, para diferenciarlos del resto. */
+.selector {
+    color: rojo;
+}
+
+
 
