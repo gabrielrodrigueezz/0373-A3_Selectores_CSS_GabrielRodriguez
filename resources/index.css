@@ -1,0 +1,12 @@
+/* Regla 1: Universal selector */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Regla 2: body */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+
