@@ -9,18 +9,22 @@ body {
     padding: 0 20%;
 }
 
-/*El título principal (h1) estara subrayado, de colo azul y centrados asi se ve grande y ordenado.*/
+/*El título principal (h1) estara subrayado, de color darkcyan y centrados asi se ve grande y ordenado.*/
 h1 {
     text-decoration: underline;
-    color: blue;
+    color: darkcyan;
     text-align: center;
 }
 
-/*A los elementos clase selector les puse color rojo, para diferenciarlos del resto. */
+/*A los elementos clase selector les puse color lightcyan, para diferenciarlos del resto. */
 .selector {
-    color: red;
+    color: lightcyan;
 }
 
-
-
+/* A la caja con clase .selectors le añadí un borde darkcyan, un poco de espacio dentro y las esquinas esquinas redondeadas, asi resalta la información.*/
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
 
