@@ -28,3 +28,15 @@ h1 {
     border-radius: 5px;
 }
 
+/*El texto con id #universal esta en amarillo asi queda resaltado*/
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/*Los subtítulos (h2) que tienen clase selector o el id #universal estan con fondo azul verdoso y algo de relleno relleno y esquinas redondeadas*/
+h2.selector,
+h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
