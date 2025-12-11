@@ -33,10 +33,24 @@ h1 {
     color: lightgoldenrodyellow;
 }
 
-/*Los subtítulos (h2) que tienen clase selector o el id #universal estan con fondo azul verdoso y algo de relleno relleno y esquinas redondeadas*/
+/*Los subtítulos (h2) que tienen clase selector y el id #universal estan con fondo azul verdoso y algo de relleno relleno y esquinas redondeadas*/
 h2.selector,
 h2#universal {
     background-color: darkcyan;
     padding: 1%;
     border-radius: 5px;
 }
+
+/*Los span estan negrita, con fondo negro y letras blancas.Asi se remarcan las palabras importantes.*/
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+
+/*Los enlaces (a) que estan dentro de una lista (li) les he quitado el subrayado, para que se vean mas claramente.*/
+li > a {
+    text-decoration: none;
+}
+
